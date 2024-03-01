@@ -1,0 +1,482 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  font-family: poppins;
+}
+
+.sicons {
+  padding: 0 20px;
+}
+.sicons i {
+  padding: 0 5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+.media {
+  padding: 20px;
+}
+.media img {
+  height: 50px;
+  width: 80px;
+  margin-right: -20px;
+}
+
+.left .media-body {
+  margin: 20px 0 0 0;
+  line-height: 0;
+}
+.left .media-body .logo {
+  font-size: 25px;
+  letter-spacing: 5px;
+  font-weight: bolder;
+}
+.left .media-body small {
+  font-size: 10px;
+}
+
+.mail .media-body {
+  margin: 20px 0 0 0;
+  line-height: 0;
+}
+.mail .media-body .logo {
+  font-size: 25px;
+  letter-spacing: 5px;
+  font-weight: bolder;
+}
+.mail .media-body small {
+  font-size: 10px;
+}
+
+.contact .media-body {
+  margin: 20px 0 0 0;
+  line-height: 0;
+}
+.contact .media-body .logo {
+  font-size: 25px;
+  letter-spacing: 5px;
+  font-weight: bolder;
+}
+.contact .media-body small {
+  font-size: 10px;
+}
+
+header {
+  color: #000;
+}
+header .left {
+  height: auto;
+  width: 100%;
+  padding: 0 20px;
+  transform: translateX(-5%);
+}
+header .right {
+  height: 10vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.right .mail {
+  height: 5vh;
+  width: 100%;
+}
+.right .mail .media {
+  padding: 10px;
+}
+.right .mail .media .mailcon {
+  font-size: 15px;
+}
+.right .mail .media-body small {
+  line-height: 15px;
+  font-size: 10px;
+}
+
+.right .contact {
+  height: 5vh;
+  width: 100%;
+}
+.right .contact .media {
+  padding: 10px;
+}
+.right .contact .media .contactcon {
+  font-size: 15px;
+}
+.right .contact .media-body small {
+  line-height: 15px;
+  font-size: 10px;
+}
+
+.right .donatebtn {
+  width: 100%;
+}
+.right .donatebtn .button {
+  background: #f37a1f;
+  color: white;
+  border: none;
+  font-size: 10px;
+  padding: 10PX;
+}
+
+nav {
+  padding: 10px 20px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav label {
+  padding: 10px;
+}
+nav label.active {
+  color: #f37a1f;
+}
+
+select {
+  background: #333;
+  color: #f37a1f;
+  border: none;
+}
+
+.containerlp {
+  height: 80vh;
+  width: 100%;
+  background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(asset/h1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.containerlp .container {
+  width: 80%;
+}
+.containerlp .container h1 {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.4);
+  color: #ddd;
+  font-family: arial;
+}
+.containerlp .container p {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.4);
+  color: #000;
+  font-family: arial;
+}
+.containerlp .container button {
+  padding: 10px 0;
+  width: 200px;
+  background: #f37a1f;
+  color: #fff;
+  font-family: arial;
+  border: none;
+}
+
+.card {
+  cursor: pointer;
+  transition: 0.6s all ease;
+}
+
+.card:hover {
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card img:nth-child(3) {
+  height: 200px;
+}
+
+.hlpbtn {
+  padding: 10px 0;
+  width: 200px;
+  background: #f37a1f;
+  color: #fff;
+  font-family: arial;
+  border: none;
+}
+
+.learnmore {
+  padding: 10px 0;
+  width: 200px;
+  background: #fff;
+  color: #f37a1f;
+  font-family: arial;
+  border: none;
+}
+
+.urgentcauses {
+  padding: 50px 10px;
+  width: 100%;
+  background: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(asset/b5.png);
+  background-size: cover;
+}
+.urgentcauses .media .img {
+  height: 300px;
+  width: 300px;
+  background: url(asset/b2.png);
+  background-size: cover;
+  margin-bottom: 10px;
+}
+.urgentcauses .media button {
+  padding: 10px 0;
+  width: 200px;
+  background: #f37a1f;
+  color: #fff;
+  font-family: arial;
+  border: none;
+}
+
+.helpus {
+  padding: 50px 10px;
+  width: 100%;
+  background: none;
+}
+
+.manypeople {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(asset/m1);
+  background-size: cover;
+}
+.manypeople h6 {
+  color: #f37a1f;
+}
+
+.insideinfo .fa {
+  font-size: 25px;
+  padding: 20px;
+  background: #f37a1f;
+  color: #fff;
+  border-radius: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.volunteer {
+  width: 100%;
+  padding: auto;
+}
+.volunteer .media {
+  position: relative;
+  background-size: contain;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+.volunteer .media img {
+  height: 100px;
+  border-radius: 50%;
+  width: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.volunteer .media::before {
+  content: '"';
+  position: absolute;
+  top: 0%;
+  right: -20%;
+  font-size: 5em;
+  color: #f37a1f;
+  font-family: rockwell nova;
+}
+
+.volinfo1 .media {
+  padding: 50px 0;
+}
+
+.volinfo2 .media {
+  padding: 50px 0;
+}
+
+.volinfo1 .col-lg {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.volinfo2 {
+  padding: 10px;
+}
+
+.volinfo2 .col-lg {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ourgallery {
+  padding: 10px;
+  background: #ddd;
+}
+
+.ourgallery .photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ourgallery .photo .photos .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ourgallery .photo .photos .row .col img {
+  height: 100px;
+  width: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.join .dntbtn button {
+  background: #333;
+  color: white;
+  border: none;
+  font-size: 15px;
+  padding: 5px 20PX;
+}
+
+.upcomingevents {
+  padding: 50px 20px;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url();
+  background-size: cover;
+}
+.upcomingevents .col h1 {
+  width: 100%;
+  padding: 2em;
+  background: rgba(0, 0, 0, 0.4);
+}
+.upcomingevents .media p {
+  padding: 10px 20px;
+  background: #f37a1f;
+  font-weight: bold;
+}
+.upcomingevents .media-body {
+  font-weight: normal;
+  font-size: 14px;
+}
+.upcomingevents .media-body .fa {
+  border-radius: 0;
+  font-size: 10px;
+  margin: 0;
+  padding: 10px;
+  color: #f37a1f;
+}
+.upcomingevents .media-body .tl .fa {
+  background: none;
+  font-size: 10px;
+}
+
+.partner .photo .photos .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner .photo .photos .row .col img {
+  height: 150px;
+  width: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.footer {
+  width: 100%;
+  font-size: 10px;
+  padding: 20px;
+}
+.footer .h6 {
+  font-size: 10px;
+}
+
+@media only screen and (min-width: 900px) {
+  .helpus .div {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+  .helpus {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.9)), url(asset/m1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0% 100%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .right {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+  }
+  .right .mail .media .mailcon {
+    padding: 20px;
+    font-size: 20px;
+    background: #ddd;
+    border-radius: 50%;
+  }
+  .right .mail .media-body small {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .right .contact .media .contactcon {
+    padding: 20px;
+    font-size: 20px;
+    background: #ddd;
+    border-radius: 50%;
+  }
+  .right .contact .media-body small {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .right .donatebtn .button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  nav {
+    padding: 10px 20px;
+    font-size: 12px;
+    justify-content: start;
+  }
+  nav .drpdwnmenu {
+    margin-left: 20em;
+  }
+  .containerlp .container {
+    width: 30%;
+    margin-left: 15%;
+  }
+  .urgentcauses {
+    height: 80vh;
+  }
+  .urgentcauses .media {
+    height: 350px;
+    width: 500px;
+  }
+  .insideinfo .fa {
+    font-size: 25px;
+    padding: 20px;
+    background: #f37a1f;
+    color: #fff;
+    border-radius: 50%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .helpus {
+    height: 100vh;
+  }
+  .ourgallery .photo .photos .row .col img {
+    height: 200px;
+    width: 200px;
+  }
+  .upcomingevents {
+    height: 100vh;
+  }
+  .volunteer {
+    padding: 5em;
+  }
+}
